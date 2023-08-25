@@ -46,6 +46,7 @@
 3. JavaScript
 4. ES6
 5. Linters
+6. Webpack
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -69,6 +70,7 @@
 > - Added HTML
 > - Added CSS
 > - Added JavaScript
+> - Added webpack
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +86,7 @@
 3. Internet Connection
 4. Git
 5. Linter Configuration
-6. LiveServer Configuration in VSCode
+6. webpack Configuration in VSCode
 
 <!-- SETUP -->
 ### Setup
@@ -106,18 +108,19 @@ Make sure you install this project with the latest version of Git and a code edi
     npm install webpack --save-dev
     npm install webpack-cli --save-dev
     npm install html-webpack-plugin --save-dev
+    npm install webpack webpack-cli webpack-dev-server style-loader css-loader html-webpack-plugin --save-dev
 ```
 
 ### Usage
 
-To run the project, open in VSCode run index.html with liveserver in browser
+To run the project, open in VSCode goto terminal type npm start
 
 ### Deployment
 
 You can deploy this project using:
->1.  A Code Editor
+>1. A Code Editor
 >2. Latest version of Git
->3. Run with a LiveServer in VSCode
+>3. Run with a webpack (npm start) in VSCode terminal
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,6 +145,7 @@ You can deploy this project using:
 - [ ] **Nodejs setup**
 - [ ] **npm setup**
 - [ ] **Linters configuration**
+- [ ] **webpack configuration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
